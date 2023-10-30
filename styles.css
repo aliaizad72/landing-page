@@ -53,7 +53,7 @@ a,
 .content-3,
 .content-4 {
     display: flex;
-    padding: 50px 150px;
+    padding: 25px 150px 50px;
     flex: 1;
 }
 
