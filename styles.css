@@ -143,3 +143,7 @@ button {
     text-align: end;
     font-weight: bold;
 }
+
+.content-4 {
+    justify-content: space-between;
+}
