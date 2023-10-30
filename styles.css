@@ -18,7 +18,7 @@ body {
 .header,
 .footer {
     justify-content: space-between;
-    padding: 20px 150px;
+    padding: 20px 15%;
 }
 .right-header {
     justify-content: space-between;
@@ -53,8 +53,7 @@ a,
 .content-3,
 .content-4 {
     display: flex;
-    padding: 25px 150px 50px;
-    flex: 1;
+    padding: 50px 15% 50px;
 }
 
 .content-1 {
@@ -120,7 +119,6 @@ button {
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    max-width: 250px;
 }
 
 .pic {
@@ -128,4 +126,20 @@ button {
     height: 150px;
     border: 3px solid #3882f6;
     border-radius: 25px;
+}
+
+.content-3 {
+    background-color: #e5e7eb;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+}
+
+.quote-person {
+    text-align: end;
+    font-weight: bold;
 }
