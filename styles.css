@@ -85,3 +85,13 @@ a,
     flex: 1;
     min-height: 400px;
 }
+
+button {
+    padding: 6px 20px;
+    color: #e5e7eb;
+    background-color: #3882f6;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+}
