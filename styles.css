@@ -6,30 +6,41 @@ body {
 }
 
 .header,
-.right-header {
+.right-header,
+.footer {
     display: flex;
-    justify-content: space-between;
     background-color: #1f2937;
     align-items: center;
 }
 
-.header {
-    color: #F9FAF8;
-    font-size: 24px;
-    font-weight: bolder;
+.header,
+.footer {
+    justify-content: space-between;
     padding: 20px 75px;
 }
 .right-header {
+    justify-content: space-between;
     gap: 15px;
+}
+
+.left-header {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bolder;
 }
 
 a,
 .info-desc,
-.image {
+.image,
+.footer {
     text-decoration: none;
     font-size: 18px;
     color: #e5e7eb;
     font-weight: 100;
+}
+
+.footer {
+    justify-content:center;
 }
 
 .content-1 {
