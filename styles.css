@@ -2,5 +2,18 @@ body {
     display: flex;
     flex-direction: column;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 15px 100px;
 }
+
+.header,
+.right-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+}
+
+.header {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
