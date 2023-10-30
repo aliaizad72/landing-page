@@ -18,7 +18,7 @@ body {
 .header,
 .footer {
     justify-content: space-between;
-    padding: 20px 75px;
+    padding: 20px 150px;
 }
 .right-header {
     justify-content: space-between;
@@ -45,17 +45,43 @@ a,
     justify-content:center;
 }
 
+.header {
+    padding-bottom: 0px;
+}
 .content-1,
 .content-2,
 .content-3,
 .content-4 {
     display: flex;
-    padding: 20px 75px;
+    padding: 50px 150px;
     flex: 1;
 }
 
-.info-title {
+.content-1 {
+    gap: 50px;
+}
+
+.title {
     font-size: 48px;
     color: #f9faf8;
     font-weight: bold;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    max-width: 50%;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+    align-self: stretch;
+    align-items: center;
+    color: #1f2937;
+    flex: 1;
+    min-height: 400px;
 }
